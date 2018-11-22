@@ -1,0 +1,40 @@
+<ion-content no-padding class="content">
+  <div class="container">
+    <div class="name-holder">
+      <div class="logo">
+        
+      </div>
+      <div class="app-name">
+          <h2>CityBus</h2>
+      </div>
+    </div>
+  
+    <form [formGroup]="userForm" class="form-holder" (ngSubmit)="signIn()" novalidate>
+  
+        <ion-item class="items" [ngClass]="{'error-border':!userForm.get('email').valid && userForm.get('email').touched}">
+            
+            <ion-label floating> Email</ion-label>
+            <ion-input class="input" type="email" formControlName="email">
+            </ion-input>
+        </ion-item>
+   
+        <ion-item  class="items" [ngClass]="{'error-border':!userForm.get('password').valid && userForm.get('password').touched}">
+            <ion-label floating> Password</ion-label>
+            <ion-input class="input" type="password" formControlName="password">
+            </ion-input>
+        </ion-item>
+        <div padding>
+            <button ion-button block full id="button" class="primary-button" color="primary">Login</button>
+        </div>
+        <div  style="text-align:center" padding>
+          <p style="color:#4d606e">Forgot Password?<a style="color: #207e82" (click)="forgotPassword()">Reset</a></p>
+          <p style="color:#4d606e" class="p">have an account?<a style="color: #207e82"(click)="gotosignup()">Register</a></p>
+          <br>
+      
+    </div>
+      
+    </form>
+  </div>
+
+  </ion-content>
+

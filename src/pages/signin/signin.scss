@@ -1,4 +1,4 @@
-page-home {
+page-signin {
     .content{
         background-color:lightgrey;
     }
@@ -33,7 +33,7 @@ page-home {
                 background: linear-gradient(270deg,  #207e82, #4d606e);
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
-                background-image: url("../assets/imgs/appLogo.jpg");
+                background-image: url("../assets/imgs/logo-BUS.png");
     
                 -webkit-animation: AnimationName 30s ease infinite;
                 -moz-animation: AnimationName 30s ease infinite;
@@ -56,7 +56,14 @@ page-home {
                 }
     }
 
- 
+    .app-name {
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        color:  #207e82;
+        font-weight: bolder
+    }
     }
 
         .form-holder {
@@ -66,7 +73,7 @@ page-home {
     .items {
         background-color: transparent;
 
-        color:black;
+        color:whitesmoke;
         .input {
      
             color:#4d606e;
@@ -85,7 +92,7 @@ page-home {
 
     #button {
         color:  #207e82;
-        color:black;
+        color: white;
         border-radius:50px;
     }
     #button1 {
@@ -93,14 +100,4 @@ page-home {
         border-radius:50px;
     }
 }
-
-.app-name {
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    color:  #207e82;
-    font-weight: bolder
-}
-
 }

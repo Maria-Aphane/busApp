@@ -1,0 +1,62 @@
+page-signup {
+    h2{
+        color: #207e82;  
+    }
+    .content{
+    
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-color:lightgray;
+    }
+    .scroll-content {
+        overflow: hidden !important;
+    }
+    .container{
+        display: flex;
+        justify-content:center;
+        align-content:left;
+        align-items:center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        right: 0;
+        position: absolute;
+        .name-holder {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+  
+  
+    }
+    .form-holder {
+            width: 100%;
+            padding: 20px;
+        }
+    .items {
+        background-color: transparent;
+        color:whitesmoke;
+        .input {
+     
+            color:#4d606e;
+           
+        }
+        .label{
+            color:#207e82;
+        }
+     
+      }
+    #button {
+        color: #207e82;
+        color: white;
+        border-radius:50px;
+    }
+    #button1 {
+        border-radius:50px;
+    }
+}
+}
